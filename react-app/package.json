@@ -1,0 +1,29 @@
+{
+  "name": "@simple-dev-server/react-app",
+  "description": "mf hmr host",
+  "private": true,
+  "scripts": {
+    "dev": "dev-server run",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@simple-dev-server/dev-server": "workspace:^",
+    "@swc/core": "^1.2.215",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.7",
+    "typescript": "^5.5.3",
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0"
+  }
+}

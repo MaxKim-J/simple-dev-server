@@ -1,0 +1,58 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "typescript"
+  ],
+  "eslint.nodePath": ".yarn/sdks",
+  "eslint.workingDirectories": [
+    {
+      "pattern": "./domains/*"
+    },
+    {
+      "pattern": "./packages/*"
+    },
+    {
+      "pattern": "./packages-mf/*"
+    },
+    {
+      "pattern": "./web-applications/*"
+    },
+    {
+      "pattern": "./web-applications-mf/*"
+    },
+    {
+      "pattern": "./web-pages/*"
+    }
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // prettier
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // typescript
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsserver.watchOptions": {
+    "watchFile": "useFsEventsOnParentDirectory"
+  }
+}
